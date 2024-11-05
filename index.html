@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fetch gyakorlás</title>
+  </head>
+  <body id="body" class="container">
+    <h1>Delivery</h1>
+    <form class="position-absolute top-50 start-50 translate-middle d-none" id="itemForm">
+      <div class="mb-3">
+        <label for="newRating" class="form-label">Rating</label>
+        <input type="number" class="form-control" id="newRating">
+      </div>
+      <div class="mb-3">
+        <label for="deliveryStatus" class="form-label">Delivery Status</label>
+        <input type="string" class="form-control" id="deliveryStatus">
+      </div>
+      <div class="mb-3">
+        <label for="newProductId" class="form-label">Product ID</label>
+        <input type="text" class="form-control" id="newProductId">
+      </div>
+      <button type="submit" class="btn btn-success">Send</button>
+    </form>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
